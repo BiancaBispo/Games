@@ -1,0 +1,38 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.branco{
+    position: relative;
+    padding: 5rem;
+    background-color: rgba(255, 255, 255, 0.945);
+    box-shadow: 0.5rem 1.5rem rgba(0,0,0,.1);
+    border-radius: 00.5rem;
+    
+}
+
+.preto{
+    position: relative;
+    padding: 5rem;
+    background-color: rgba(240, 239, 239, 0.897);
+    box-shadow: 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    border-radius: 00.5rem;
+    
+}
+
+/*.branco{
+    position: relative;
+    padding: 5rem;
+    background-color: rgba(0, 0, 0, 0.562);
+    box-shadow: 0.5rem 1.5rem rgba(0,0,0,.1);
+    border-radius: 00.5rem;
+    
+}*/
+.azul{
+    position: relative;
+    padding: 5rem;
+    background-color: rgba(24, 206, 197, 0.514);
+    box-shadow: 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    border-radius: 00.5rem;
+    
+}

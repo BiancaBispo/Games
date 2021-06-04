@@ -1,0 +1,45 @@
+body {
+  background: #333;
+}
+
+.wrapper {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #000000e3 0%, #0d1218b6 100%);
+  overflow: hidden;
+}
+
+.wave {
+  width: 1000px;
+  height: 1025px;
+  position: absolute;
+  top: -25%;
+  left: 50%;
+  margin-left: -500px;
+  margin-top: -500px;
+  border-radius: 35%;
+  background: rgba(255, 255, 255, .75);
+  animation: wave 15s infinite linear;
+}
+
+@keyframes wave {
+  from { transform: rotate(0deg);}
+  from { transform: rotate(360deg);}
+}
+
+.header-site-produtos{
+    background-image: url('../media/Wave-100s-1280px.png');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /*cor letra*/
+    color: rgb(0, 0, 0);
+    padding-top: 300px;
+    padding-bottom: 300px;
+}

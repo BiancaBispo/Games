@@ -1,0 +1,38 @@
+
+body{
+    background: linear-gradient(to right, #1fe4c3, #00ff62);
+
+   /* background: linear-gradient(to right, #ff0077, #a200ff);*/
+
+}
+.card{
+width: fit-content;
+height: fit-content;
+    background: #191919ee;
+    text-align: center;
+    transition: 0.25s;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+.card-tb p{
+    border: 0;
+    background: none;
+    display: block;
+    /*Colocar os input no centro*/
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 20px 20px;
+    width: 300px;
+    outline: none;
+    color: rgb(211, 211, 211);
+    border-radius: 24px;
+    transition: 0.25s;
+    border: 4px solid rgba(68, 68, 68, 0.712);
+}
+
+.fas.fa-cog {
+    font-size: 20px;
+    color: rgba(235, 235, 235, 0.801);
+    text-align: center;
+   }

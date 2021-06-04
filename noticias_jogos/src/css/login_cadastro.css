@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #273db9, #00d4ff);
+    /*background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    background: linear-gradient( to right,#b92b27, #1565c0);
+    */
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.card {
+    margin:auto;
+    border: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 500px;
+    padding: 50px 60px;
+    position: absolute;
+    top: 50%;
+    background: #191919e7;
+    text-align: center;
+    transition: 0.25s;
+    margin-block-start: 20px;
+   /*margin:auto;
+    margin-bottom: 100px;
+    borda do card redondo*/
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+    background-size: auto;
+
+}
+/*.div.fixed { position: fixed; top: 0; left: 0; }*/
+
+.box input[type="email"],
+.box input[type="password"],
+.box input[type="text"],
+.box input[type="usuario"]  {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box select[name="role"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db75;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.box h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.box p {
+    color: rgba(255, 255, 255, 0.774);
+    font-weight: 500;
+}
+
+.box input[type="email"]:focus,
+.box input[type="password"]:focus,
+.box input[type="text"]:focus,
+.box input[type="usuario"]:focus {
+    width: 300px;
+    border-color: #2ecc71;
+}
+
+.box button[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box button[type="submit"]:hover {
+    background: #2ecc71;
+}
+
+
+.forgot {
+    text-decoration: underline;
+}
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff;
+}
+
+.social-network div.icoGoogle:hover {
+    background-color: #BD3518;
+}
+
+.social-network a.icoFacebook:hover i,.social-network a.icoTwitter:hover i,
+.social-network div.icoGoogle:hover div {
+    color: #fff;
+}
+
+a.socialIcon:hover, .socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li div {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.social-circle li div {
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+}
+
+.social-circle li div:hover div,
+.triggeredHover {
+    transform: rotate(360deg);
+    transition: all 0.2s;
+}
+
+.social-circle div {
+    color: #fff;
+    transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+@media screen and (max-width: 600px) {
+    .box, .card, input[type="email"], input[type="password"],input[type="text"],input[type="usuario"] button[type="submit"]{
+      width: 100%;
+      margin-top: 0;
+    }
+  }

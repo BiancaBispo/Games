@@ -1,0 +1,258 @@
+
+/*body{
+    background: linear-gradient(to right, #1fe4dae3, #0cc205e5);
+    /*background: linear-gradient(to right, #464d4b, #000000);*/
+
+   /* background: linear-gradient(to right, #ff0077, #a200ff);*/
+
+/*}*/
+
+
+    /*background: rgba( 71, 147, 227, 1);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .background {
+    padding: 0 25px 25px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .background::after {
+    content: '';
+    background: #60a9ff;
+    background: -moz-linear-gradient(top, #60a9ff 0%, #4394f4 100%);
+    background: -webkit-linear-gradient(top, #60a9ff 0%,#4394f4 100%);
+    background: linear-gradient(to bottom, #60a9ff 0%,#4394f4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60a9ff', endColorstr='#4394f4',GradientType=0 );
+    height: 350px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  @media (min-width: 900px) {
+    .background {
+      padding: 0 0 25px;
+    }
+  }
+  */
+
+
+ /*TABELA*/ 
+h2 {
+    font-size: 22px;
+    margin: 35px 0;
+    text-align: center;
+    top: 60%;
+}
+
+small {
+    font-size: 0.6em;
+}
+/*.borda{ 
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;}*/
+.box{
+    background: #3f3f3fb9;
+    border-radius: 00.5rem;
+    color: rgba(255, 255, 255, 0.945);
+    
+   /* box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);*/
+}
+
+
+.box td{
+    text-align: center;
+    /*padding-top: 5px;
+    padding-bottom: 5px;*/
+}
+.box th{
+    text-align: center;
+
+}
+
+.fas.fa-cog {
+    font-size: 20px;
+    color: rgba(235, 235, 235, 0.801);
+    text-align: center;
+   }
+
+
+
+/*img{
+    border: 4px solid rgba(0, 0, 0, 0.904);
+}*/
+/*TABELA FIM*/
+
+/*CARD*/
+.card{
+    padding: 50px 60px;
+    position: relative;
+    top: 50%;
+   /* background: #ffffffdc;*/
+    background: #191919ee;
+    text-align: center;
+    transition: 0.25s;
+    margin-block-start: 20px;
+   /*margin:auto;
+    margin-bottom: 100px;
+    borda do card redondo*/
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /*border-radius: 00.5rem;*/
+
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+
+    background-size: auto;
+}
+
+.card input[type="text"],
+.card input[type="file"] {
+    border: 0;
+    background: none;
+    display: block;
+    /*Colocar os input no centro*/
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 20px 20px;
+    width: 300px;
+    outline: none;
+    color: rgb(211, 211, 211);
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+/*#idClass {
+    border: 0;
+    background: none;
+    display: block;
+    /*Colocar os input no centro*/
+    /*margin: 5px auto;
+    text-align: center;
+    border: 2px solid #eb830de7;
+    padding: 20px 20px;
+    width: 300px;
+    outline: none;
+    color: rgb(245, 240, 240);
+    border-radius: 24px;
+    transition: 0.25s;
+}*/
+
+/*.card select[type="text"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 20px 20px;
+    width: 300px;
+    outline: none;
+    color: rgb(255, 250, 250);
+    transition: 0.25s;
+}*/
+
+.card h1 {
+    color: rgb(212, 212, 212);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.card p {
+    color: rgba(255, 255, 255, 0.774);
+    font-weight: 500;
+    text-align: left;
+
+}
+
+.card input[type="text"]:focus,
+.card input[type="file"]:focus {
+    width: 400px;
+    border-color: #2ecc71;
+}
+
+.card button[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    color: rgba(255, 255, 255, 0.774);
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.card select[type="text"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: rgba(0, 0, 0, 0.959);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+
+.card button[type="submit"]:hover {
+    background: #2ecc71;
+}
+
+.forgot {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .card, input[type="text"], input[type="fole"], button[type="submit"]{
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+/*FIM CARD*/
+
+
+/*
+.card {
+    margin:auto;
+    border: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 500px;
+    padding: 50px 60px;
+    position: relative;
+    top: 50%;
+    background: #191919e7;
+    text-align: center;
+    transition: 0.25s;
+    margin-block-start: 20px;
+   /*margin:auto;
+    margin-bottom: 100px;
+    borda do card redondo*/
+    /*
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+    background-size: auto;
+}*/
